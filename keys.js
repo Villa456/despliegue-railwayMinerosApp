@@ -25,4 +25,4 @@ module.exports ={
 // }
 
 
-//descomentar el código para usarlo de forma local / remota
+//descomentar el código para usarlo de forma local / remota 
