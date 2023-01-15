@@ -80,7 +80,7 @@ const logIn = async(req, res = response) => {
         //Consultar tabla minero
         const minero = await pool.query('SELECT * FROM tblminero WHERE strEmail=?',[email]);
         const jwt = await generarJwt(email);
-        const {strEmail, strNombre, strApellido}=user[0];
+        const {strEmail, strNombre, strApellido}= user[0];
         return res.json({
             ok: true,
             email: strEmail,
